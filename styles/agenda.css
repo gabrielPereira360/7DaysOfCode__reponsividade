@@ -78,6 +78,7 @@
     padding: 1em;
     font-size: 14px;
     border-radius: 8px;
+    text-align: center;
 }
 
 .dados--pt2__botao:hover{
@@ -87,16 +88,17 @@
 .laranja{
     color: var(--branco);
     background-color: var(--laranja);    
+    width: 50%;
 }
 
 .branco{
     color: var(--preto);
     border: 1px solid var(--cinza--claro);
+    width: 50%;
 }
 
 .azul{
     color: var(--branco);
     background-color: var(--azul);
     width: 100%;
-    text-align: center;
 }
