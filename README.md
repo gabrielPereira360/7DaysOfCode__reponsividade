@@ -1,4 +1,4 @@
-# 7DaysOfCode Praticando Reponsividade
+# 7DaysOfCode Praticando Responsividade
 
 > [!WARNING]
 > Site em desenvolvimento
