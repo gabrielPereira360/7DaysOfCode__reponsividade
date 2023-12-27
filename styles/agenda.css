@@ -71,6 +71,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1em
 }
 
 .dados--pt2__botao {
@@ -95,6 +96,7 @@
     color: var(--preto);
     border: 1px solid var(--cinza--claro);
     width: 50%;
+
 }
 
 .azul{
