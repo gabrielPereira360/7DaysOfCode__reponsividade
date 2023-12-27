@@ -1,0 +1,23 @@
+.cabecalho{
+    display: flex;
+    padding: 4em 2em 2em 2em;
+    align-items: center;
+}
+
+.perfil--foto--img{
+    border-radius: 60px;
+    width: 5em;
+    margin-right: 2em;
+
+}
+
+.perfil--dados--nome{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%
+}
+
+.perfil--dados--consultas{
+    font-size: 14px;
+    font-weight: 400;
+}
