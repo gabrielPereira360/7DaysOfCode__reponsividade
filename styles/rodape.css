@@ -1,0 +1,36 @@
+.rodape{
+    position: fixed;
+    top: 90%;
+    width: 100%;
+}
+
+.rodape__menu{
+    background-color: var(--branco);
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1.5em;
+}
+
+.menu__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.menu__item:active{
+    opacity: 0.6;
+}
+
+.menu__item--texto{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--preto);
+}
+
+.selecionado{
+    color: var(--azul);
+}
