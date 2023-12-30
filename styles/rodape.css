@@ -1,7 +1,4 @@
 .rodape {
-    position: fixed;
-    top: 100%;
-    transform: translateY(-100%);
     width: 100%;
 }
 
@@ -10,8 +7,8 @@
     border-radius: 12px 12px 0px 0px;
     box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
     display: flex;
-    justify-content: space-between;
-    padding: 1em 1.5em;
+    justify-content: space-evenly;
+    height: 58px;
 }
 
 .menu__item {
@@ -35,32 +32,4 @@
 
 .selecionado {
     color: var(--azul);
-}
-
-.rodape__btn--checkbox {
-    display: none;
-}
-
-.rodape__btn--botao {
-    position: absolute;
-    top: -125%;
-    left: 100%;
-    transform: translateX(-110%);
-    cursor: pointer;
-}
-
-.camera {
-    top: -240%;
-}
-
-.localizacao {
-    top: -360%;
-}
-
-.rodape__btn--extras {
-    display: none;
-}
-
-.rodape__btn--checkbox:checked~.rodape__btn--extras {
-    display: block;
 }
