@@ -1,7 +1,6 @@
 .agenda {
     padding: 0 2em;
     overflow-y: scroll;
-    height: 100vh;
 }
 
 .hoje, .amanha, .quarta{
