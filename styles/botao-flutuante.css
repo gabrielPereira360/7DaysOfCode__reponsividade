@@ -27,13 +27,13 @@ button.botao__flutuante-cadastro span{
 }
 
 .botao__flutuante ul{
-  position: absolute;
+  position: fixed;
   width: 100%;
   opacity: 0;
   right: 0;
   bottom: 0;
   padding: 80vh 0 20px 0;
-  padding-bottom: 240px;
+  padding-bottom: 135px;
 
   transition: opacity 1s;
 	transform: scale(0);
