@@ -22,11 +22,9 @@ body {
     font-size: 12px;
     font-weight: 500;
     color: var(--preto);
-    height: 100vh;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
