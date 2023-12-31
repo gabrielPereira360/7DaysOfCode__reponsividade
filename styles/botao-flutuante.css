@@ -48,6 +48,11 @@ button.botao__flutuante-cadastro span{
   
 }
 
+.botao__flutuante-cadastro + ul{
+  opacity: 0;
+	transform: scale(1);
+}
+
 .botao__flutuante>ul li{
   display: flex;
   align-items: center;
