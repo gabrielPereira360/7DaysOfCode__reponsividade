@@ -1,10 +1,11 @@
 .botao__flutuante{
   position: relative;
 }
+
 .botao__flutuante .botao__flutuante-cadastro{
-  position: absolute;
+  position: fixed;
   right: 16px;
-  bottom: 185px;
+  bottom: 80px;
 
   width: 56px;
   height: 56px;
