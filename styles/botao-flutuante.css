@@ -4,7 +4,7 @@
 .botao__flutuante .botao__flutuante-cadastro{
   position: absolute;
   right: 16px;
-  bottom: 70px;
+  bottom: 80px;
 
   width: 56px;
   height: 56px;
@@ -32,7 +32,7 @@ button.botao__flutuante-cadastro span{
   right: 0;
   bottom: 0;
   padding: 80vh 0 20px 0;
-  padding-bottom: 130px;
+  padding-bottom: 135px;
 
   transition: opacity 1s;
 	transform: scale(0);
@@ -52,7 +52,7 @@ button.botao__flutuante-cadastro span{
   align-items: center;
   justify-content: flex-end;
   margin-right: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .botao__flutuante ul li>span{

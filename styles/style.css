@@ -21,7 +21,8 @@ body {
     font-family: var(--fonte--principal);
     font-size: 12px;
     font-weight: 500;
-    color: var(--preto)
+    color: var(--preto);
+    height: 100vh;
 }
 
 main{
