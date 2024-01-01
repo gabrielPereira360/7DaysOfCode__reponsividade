@@ -127,12 +127,20 @@
 
 @media screen and (min-width: 1024px) {
 
+    .agenda{
+        margin-left: 12vw;
+        margin-bottom: 3em;
+    }   
+
     .hoje,
     .amanha,
     .quarta {
         grid-template-columns: 26.6vw 26.6vw 26.6vw;
         justify-content: center;
         column-gap: 1em;
-        padding-left: 12vw;
+    }
+
+    .agenda__titulo{
+        font-size: 1.5em;
     }
 }

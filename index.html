@@ -316,15 +316,41 @@
                     </span>
                     <button class="botao__flutuante-item btn-primario"><span class="remoto"></span></button>
                 </li>
-
             </ul>
-
         </div>
+
+        <section class="formulario__container">
+            <form action="#" class="formulario">
+                <h2 class="formulario__titulo">Formulário de Cadastro</h2>
+                <div class="formulario__dados">
+                    <div class="input__container">
+                        <label for="nome">Nome do Paciente</label>
+                        <input type="text" name="nome" id="nome-id" placeholder="Informe o seu nome">
+                    </div>
+                    <div class="input__container">
+                        <label for="tipo__consulta">Tipo de Consulta</label>
+                        <select name="tipo__consulta" id="tipo__consulta--id">
+                            <option value="via--casa">Na casa do cliente</option>
+                            <option value="via--video">Por vídeo</option>
+                        </select>
+                    </div>
+                    <div class="input__container">
+                        <label for="data__consulta">Data da Consulta</label>
+                        <input type="date" name="data__consulta" id="data__consulta--id">
+                    </div>
+                    <div class="input__container">
+                        <label for="hora__consulta">Horário da Consulta</label>
+                        <input type="time" name="hora__consulta" id="hora__consulta--id">
+                    </div>
+                    <div class="input__container">
+                        <label for="observacoes">Observações:</label>
+                        <textarea name="observacoes" id="observacoes--id" cols="30" rows="1"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Salvar Consulta">
+            </form>
+        </section>
     </main>
-
-
-
-
 </body>
 
 </html>

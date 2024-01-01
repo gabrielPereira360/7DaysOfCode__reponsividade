@@ -1,5 +1,6 @@
 .botao__flutuante{
   position: relative;
+  display: block;
 }
 
 .botao__flutuante .botao__flutuante-cadastro{
@@ -107,4 +108,12 @@ button.botao__flutuante-item span.remoto{
   border: none;
   background: #4894FF;
   color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {
+
+  .botao__flutuante{
+    display: none;
+  }
+  
 }
