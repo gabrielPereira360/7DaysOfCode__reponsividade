@@ -22,12 +22,12 @@
 }
 
 .menu__item:active,
-.rodape__btn--botao:active {
+.btn-primario:active {
     opacity: 0.6;
 }
 
 .menu__item--texto {
-    font-size: 12px;
+    font-size: 1em;
     font-weight: 400;
     color: var(--preto);
 }
@@ -36,3 +36,46 @@
     color: var(--azul);
 }
 
+
+@media screen and (min-width: 1024px) {
+
+
+
+    .rodape {
+        position: fixed;
+        width: 12vw;
+        height: 100vh;
+    }
+
+    .rodape__menu {
+        border-radius: 0;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: initial;
+        gap: 2em;
+        padding-top: 3em
+    }
+
+    .menu__item {
+        padding: 0 1vw;
+        flex-direction: row;
+        justify-content: initial;
+        gap: 1.5em;
+        cursor: pointer;
+
+    }
+
+    .menu__item--texto {
+        font-size: 1.3vw;
+        font-weight: 500;
+    }
+
+    .menu__item:hover {
+        opacity: 0.8;
+    }
+
+    .menu__item:active {
+        opacity: 0.6;
+    }
+
+}

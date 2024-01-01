@@ -4,13 +4,15 @@
     margin-bottom: 5em;
 }
 
-.hoje, .amanha, .quarta{
+.hoje,
+.amanha,
+.quarta {
     margin-bottom: 2em;
 }
 
 
 .agenda__titulo {
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: 700;
     line-height: 160%;
     margin-bottom: 0.5em;
@@ -22,54 +24,54 @@
     margin-bottom: 1em;
 }
 
-.agenda__dados--pt1{
+.agenda__dados--pt1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em 1em 0.5em 1em;
 }
 
-.dados--pt1--img{
+.dados--pt1--img {
     width: 3em;
     border-radius: 24px;
     margin-right: 1em;
 }
 
-.dados--pt1__user{
+.dados--pt1__user {
     margin-right: auto;
 }
 
-.user__nome{
-    font-size: 14px;
+.user__nome {
+    font-size: 1.16em;
     font-weight: 700;
     line-height: 160%;
 }
 
-.user__consulta--tipo{
+.user__consulta--tipo {
     display: flex;
     align-items: center;
     gap: 0.8em;
 }
 
-.user__consulta--tipo--desc{
+.user__consulta--tipo--desc {
     font-weight: 400;
     color: var(--cinza);
 }
 
-.linha__divisoria{
+.linha__divisoria {
     opacity: 0.2;
     color: var(--preto);
 }
 
-.agenda__dados--pt2{
+.agenda__dados--pt2 {
     padding: 0.5em 1em 1em 1em;
 }
 
-.dados--pt2__horario{
+.dados--pt2__horario {
     margin-bottom: 1em;
 }
 
-.dados--pt2__botoes{
+.dados--pt2__botoes {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,30 +81,58 @@
 .dados--pt2__botao {
     text-decoration: none;
     padding: 1em;
-    font-size: 14px;
+    font-size: 1.16em;
     border-radius: 8px;
     text-align: center;
 }
 
-.dados--pt2__botao:hover{
+.dados--pt2__botao:hover {
     opacity: 0.8;
 }
 
-.laranja{
+.laranja {
     color: var(--branco);
-    background-color: var(--laranja);    
+    background-color: var(--laranja);
     width: 50%;
 }
 
-.branco{
+.branco {
     color: var(--preto);
     border: 1px solid var(--cinza--claro);
     width: 50%;
 
 }
 
-.azul{
+.azul {
     color: var(--branco);
     background-color: var(--azul);
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hoje,
+    .amanha,
+    .quarta {
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+        justify-content: center;
+        column-gap: 3em;
+    }
+
+    .agenda__titulo {
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .hoje,
+    .amanha,
+    .quarta {
+        grid-template-columns: 26.6vw 26.6vw 26.6vw;
+        justify-content: center;
+        column-gap: 1em;
+        padding-left: 12vw;
+    }
 }

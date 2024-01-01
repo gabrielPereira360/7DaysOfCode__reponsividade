@@ -45,12 +45,14 @@ button.botao__flutuante-cadastro span{
 .botao__flutuante-cadastro:focus + ul{
   opacity: 1;
 	transform: scale(1);
-  
+  top: initial;
 }
 
 .botao__flutuante-cadastro + ul{
+  top: 100%;
   opacity: 0;
 	transform: scale(1);
+
 }
 
 .botao__flutuante>ul li{
@@ -65,7 +67,7 @@ button.botao__flutuante-cadastro span{
   display: flex;
   align-items: center;
   height: 24px;
-  font-size: 12px;
+  font-size: 1em;
   background: var(--branco);
   border-radius: 20px;
   padding: 0 8px;

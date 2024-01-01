@@ -12,12 +12,19 @@
 }
 
 .perfil--dados--nome{
-    font-size: 22px;
+    font-size: 1.83em;
     font-weight: 700;
     line-height: 160%
 }
 
 .perfil--dados--consultas{
-    font-size: 14px;
+    font-size: 1.16em;
     font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho {
+        padding-left: 14vw;
+    }
 }
