@@ -1,4 +1,4 @@
-# Site desenvoldio no programa: 7DaysOfCode - Responsividade - Alura
+# Site desenvolvido no programa: 7DaysOfCode - Responsividade - Alura
 
 
 <img src="https://github.com/gabrielPereira360/7DaysOfCode__reponsividade/assets/152038489/c70008f6-4b8d-4c50-9927-ba81fc23d4e0" alt="Tela mobile" width=25%>
